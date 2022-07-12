@@ -1,0 +1,31 @@
+.about{
+  display: flex;
+  flex-direction: column;
+}
+.aboutTitle{
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 800;
+}
+.aboutWrap{
+  margin: 15px;
+}
+.aboutImg{
+  width: 50%;
+  height: 300px;
+  float: left;
+  margin: 0 15px 0 0 ;
+}
+.aboutText{
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family:'Edu SA Beginner';
+  font-size: 20px;
+}
+.aboutText::first-letter{
+  font-size: 25px;
+  font-weight: 600;
+}

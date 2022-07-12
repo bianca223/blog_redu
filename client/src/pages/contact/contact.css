@@ -1,0 +1,39 @@
+.contact{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/1714340/pexels-photo-1714340.jpeg?cs=srgb&dl=pexels-bich-tran-1714340.jpg&fm=jpg");
+  background-size: cover;
+}
+.contactTitle{
+  font-size: 50px;
+  font-weight: 800;
+}
+.contactForm{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contactForm > label{
+  margin: 10px 0;
+}
+.contactInput{
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+.contactTextarea{
+  height: 200px;
+  width: 300px;
+}
+
+.contactButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
