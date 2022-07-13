@@ -38,7 +38,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "proxy": "http://localhosst:9000",
+    "proxy": "http://localhost:9000",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   }
